@@ -21,3 +21,22 @@ body{
 .text-light{
     font-family: 'Raleway', sans-serif;
 }
+.title-margin{
+    margin-bottom: 60px;
+}
+.bouton{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    opacity: 0.8;
+}
+.bouton-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
