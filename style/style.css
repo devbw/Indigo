@@ -45,6 +45,9 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.card-container-mobile{
+    display: none;
+}
 .fade-in {
 	-webkit-animation: fade-in 3s ease-in-out both;
 	        animation: fade-in 3s ease-in-out both;
@@ -165,4 +168,13 @@ body{
       opacity: 1;
     }
   }
-  
+@media (max-width: 640px){
+	.card-container{
+        display: none;
+    }
+	.card-container-mobile{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
