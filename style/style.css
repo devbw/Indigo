@@ -40,6 +40,11 @@ body{
     color:white;
     background: linear-gradient(172deg, rgba(12,0,92,1) 0%, rgba(65,2,131,1) 0%, rgba(130,55,144,1) 100%);
 }
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .fade-in {
 	-webkit-animation: fade-in 3s ease-in-out both;
 	        animation: fade-in 3s ease-in-out both;
