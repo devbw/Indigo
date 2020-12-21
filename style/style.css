@@ -31,13 +31,14 @@ body{
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 5px;
     padding:10px 20px;
-    color:white;
+    color:rgb(12,0,92);
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+    background-color: white;
 }
 .bouton:hover{
-    background-color: white;
-    color:rgb(12,0,92);
+    color:white;
+    background: linear-gradient(172deg, rgba(12,0,92,1) 0%, rgba(65,2,131,1) 0%, rgba(130,55,144,1) 100%);
 }
 .fade-in {
 	-webkit-animation: fade-in 3s ease-in-out both;
