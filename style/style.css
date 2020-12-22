@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-decoration: none;
 }
 .bkn{
     background: rgb(12,0,92);
@@ -48,6 +49,7 @@ body{
 .card-container-mobile{
     display: none;
 }
+
 .fade-in {
 	-webkit-animation: fade-in 3s ease-in-out both;
 	        animation: fade-in 3s ease-in-out both;
